@@ -12,4 +12,8 @@ tables = soup.find_all(class_='small-order-1')
 names = [ item.find('a').get_text() for item in tables]
 links = [ item.find('a').get('href') for item in tables]
 
+trans_links = pd.DataFrame({
+	'name':names,
+	'links':links,
+	})
 
