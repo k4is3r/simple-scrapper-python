@@ -17,3 +17,4 @@ trans_links = pd.DataFrame({
 	'links':links,
 	})
 
+trans_links.to_csv('capres.csv')
