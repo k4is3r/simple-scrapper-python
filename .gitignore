@@ -1,2 +1,3 @@
 .venv/
 .main.py.swp
+*.csv
